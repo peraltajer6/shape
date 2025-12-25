@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Growing Polygon Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="ui">
+    Sides: <span id="sides">3</span>
+  </div>
+
+  <div id="shapeName">Triangle</div>
+
+  <canvas id="game" width="500" height="500"></canvas>
+
+  <script src="game.js"></script>
+</body>
+</html>
