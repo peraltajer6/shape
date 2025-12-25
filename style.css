@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  background: #0f0f14;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+canvas {
+  background: #111;
+  border-radius: 12px;
+}
+
+#ui {
+  position: absolute;
+  top: 15px;
+  color: white;
+  font-size: 18px;
+}
+
+#shapeName {
+  position: absolute;
+  bottom: 20px;
+  color: #4cc9f0;
+  font-size: 24px;
+  font-weight: bold;
+  pointer-events: none; /* cannot collide / interact */
+}
